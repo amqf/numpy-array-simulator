@@ -1,0 +1,5 @@
+{
+  "name": "NumPy Array Simulator",
+  "description": "A high-fidelity interactive laboratory for visualization of NumPy array memory structures, strides, and shapes. Designed to build intuition for multidimensional data structures.",
+  "requestFramePermissions": []
+}
