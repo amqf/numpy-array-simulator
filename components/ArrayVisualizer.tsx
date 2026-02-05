@@ -21,7 +21,7 @@ const ArrayVisualizer: React.FC<ArrayVisualizerProps> = ({
   const { shape, ndim, strides, itemsize } = data.stats;
 
   // Helper to render a single cell
-  const renderCell = (val: number, ndIndices: number[]) => {
+  const renderCell = (_: number, ndIndices: number[]) => {
     // We calculate the flat index dynamically based on strides to support C and F order
     const flatIdx = getFlatIndex(ndIndices, strides, itemsize);
     
