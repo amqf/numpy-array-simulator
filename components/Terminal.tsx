@@ -1,19 +1,16 @@
 import React from 'react';
-import { ArrayData, HighlightState } from '../types';
-import { Terminal as TerminalIcon, Calculator, ArrowRight } from 'lucide-react';
+import { ArrayData } from '../types';
+import { Terminal as TerminalIcon, Calculator } from 'lucide-react';
 
 interface TerminalProps {
   data: ArrayData;
 }
 
 const Terminal: React.FC<TerminalProps> = ({ data }) => {
-  const { stats, dtype } = data;
+  const { stats } = data;
 
   const renderMathBreakdown = () => {
     if (stats.ndim > 3) return <div className="text-slate-500 text-xs italic">Address calculation valid for all dimensions.</div>;
-    
-    // Example Calculation for the last element
-    const exampleIndices = stats.shape.map(d => d - 1);
     
     return (
       <div className="mt-4 border-t border-[#333] pt-4">

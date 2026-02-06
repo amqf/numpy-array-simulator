@@ -15,7 +15,7 @@ const MemoryVisualizer: React.FC<MemoryVisualizerProps> = ({
   setHighlight,
   activeSliceIdx
 }) => {
-  const { flatData, dtype, stats } = data;
+  const { flatData, stats } = data;
   
   // Dynamic sizing
   const blockSize = flatData.length > 50 ? 24 : 36;

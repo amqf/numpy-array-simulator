@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Layers, Cpu, AlertTriangle, ArrowRight, Play, Brain, Eye } from 'lucide-react';
+import { Layers, AlertTriangle, ArrowRight, Play, Brain, Eye } from 'lucide-react';
 
 interface LandingPageProps {
   onStart: () => void;
