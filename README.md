@@ -4,9 +4,7 @@
 
 <p align="center">
   <!-- CI badge: substitua <owner>/<repo> pelo caminho real -->
-  <a href="https://github.com/<owner>/<repo>/actions"><img alt="CI" src="https://github.com/<owner>/<repo>/actions/workflows/ci.yml/badge.svg"/></a>
-  <a href="https://codecov.io/gh/<owner>/<repo>"><img alt="Coverage" src="https://codecov.io/gh/<owner>/<repo>/branch/main/graph/badge.svg"/></a>
-  <a href="./LICENSE"><img alt="License" src="https://img.shields.io/badge/License-MIT-yellow.svg"/></a>
+  
 </p>
 
 # Array Lab — NumPy Array Simulator
