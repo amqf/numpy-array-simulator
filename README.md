@@ -95,9 +95,3 @@ Contribuições são bem-vindas! Abra uma issue para discutir ideias e envie PRs
 ## 📄 Licença
 
 MIT
-
----
-
-## 🔗 Links úteis
-
-Se quiser, posso também adicionar um `CONTRIBUTING.md`, exemplos de uso ou badges de CI. Quer que eu inclua algo mais no README? ✨
