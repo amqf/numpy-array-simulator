@@ -100,6 +100,4 @@ MIT
 
 ## 🔗 Links úteis
 
-- Visualizar no AI Studio: https://ai.studio/apps/drive/1QEBSv0_SNX3ZltRXHMaOJMdq97QvkXnr
-
 Se quiser, posso também adicionar um `CONTRIBUTING.md`, exemplos de uso ou badges de CI. Quer que eu inclua algo mais no README? ✨
